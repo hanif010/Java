@@ -1,3 +1,4 @@
+package minskole;
 
 public class Day3 {
 
@@ -59,7 +60,6 @@ public class Day3 {
 		// Program 
 		
 		String nameA = "Chinamayou";
-		String vowels = "aeiou";
 		int count = 0;
 		
 		for(int i = 0; i<nameA.length();i++) {

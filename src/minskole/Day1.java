@@ -1,3 +1,4 @@
+package minskole;
 
 public class Day1 {
 
