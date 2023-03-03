@@ -5,7 +5,7 @@ public class Day11 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//Multi level
+		//Multiple-level
 		Son hanif = new Son("Imam","Jamadar","Maktum","Hanif");
 		System.out.println(hanif.firstName);
 		System.out.println(hanif.lastName);
@@ -17,7 +17,7 @@ public class Day11 {
 		hanif.displaySname();
 		
 		
-		//Heraricle
+		//Hierarchy
 		
 		Daughter1 ayesha = new Daughter1("Mamta","Jamadar","Ayesha");
 		System.out.println(ayesha.firstName);
@@ -47,7 +47,7 @@ public class Day11 {
 
 }
 
-// Multi-level
+// Multiple-level
 
 class GrandFather{
 	String firstName;
@@ -89,7 +89,7 @@ class Son extends Father{
 	}
 }
 
-//Heraricle
+//Hierarchy
 
 class Mother{
 	String firstName;
